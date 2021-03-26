@@ -27,12 +27,12 @@ public class Cliente {
 	/**
 	 * <b>Precondiciones:</b> 
 	 * <ul>
-	 * <li>Crea el escuchador</li>
-	 * <li>Crea el escritor</li>
-	 * <li>Crea socket con Host y puerto</li>
-	 * <li>Envia mensaje al servidor</li>
-	 * <li>Imprime el mensaje del servidor</li>
-	 * <li>Cierra el servidor</li>
+	 * 		<li>Crea el escuchador</li>
+	 * 		<li>Crea el escritor</li>
+	 * 		<li>Crea socket con Host y puerto</li>
+	 * 		<li>Envia mensaje al servidor</li>
+	 * 		<li>Imprime el mensaje del servidor</li>
+	 * 		<li>Cierra el servidor</li>
 	 * </ul>
 	 * Tener una constante o variable  tipo String con el HOST
 	 * 
