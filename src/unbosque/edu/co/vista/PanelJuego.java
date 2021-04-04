@@ -23,7 +23,12 @@ public class PanelJuego extends JPanel{
 	private JProgressBar jb4;
 
 	
-
+	/**
+	 * Metodo constructor
+	 * <b>precondiciones:</b> Ser llamado desde Ventana
+	 * <br>
+	 * <b>poscondiciones</b> cargar las caracteristicas 
+	 */
 	public PanelJuego() {
 		
 		setLayout(null);
@@ -108,7 +113,10 @@ public class PanelJuego extends JPanel{
 				 label= new JLabel();
 	}
 	
-	
+	/**
+	 * Metodo que se usa para mostrar la funcionalidad del progress bar
+	 * 
+	 */
 	public void iterate(){   
 		int i = 0;
 		while(i<=2000){    

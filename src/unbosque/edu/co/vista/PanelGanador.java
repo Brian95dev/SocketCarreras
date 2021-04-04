@@ -10,9 +10,15 @@ import javax.swing.JPanel;
  */
 public class PanelGanador extends JPanel{
 
-	
 	private Image imagenx;
-
+	
+	
+	/**
+	 * Metodo constructor
+	 * <b>precondiciones:</b> Ser llamado desde Ventana
+	 * <br>
+	 * <b>poscondiciones</b> cargar las caracteristicas y tener el paint component de esta 
+	 */
 	public PanelGanador () {
 		setLayout(null);	
 		setSize(656,432);
@@ -26,6 +32,11 @@ public class PanelGanador extends JPanel{
 		imagenx = Toolkit.getDefaultToolkit().createImage("src/Imagenes/victoria.gif");
 
 	}
+	/**
+	 * Repintado de la interfaz
+	 * 
+	 * @param g repintar. g != null.
+	 */
 	 @Override
 	  public void paintComponent(Graphics g) 
 	  {

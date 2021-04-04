@@ -19,7 +19,12 @@ public class PanelInicio extends JPanel{
 	private Image imagen;
 	private JButton btnInicio;
 	
-	
+	/**
+	 * Metodo constructor
+	 * <b>precondiciones:</b> Ser llamado desde Ventana
+	 * <br>
+	 * <b>poscondiciones</b> cargar las caracteristicas y tener el paint component de esta 
+	 */
 	public PanelInicio () {
 		setLayout(new BorderLayout());	
 		setSize(656,432);

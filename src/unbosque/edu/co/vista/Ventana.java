@@ -8,6 +8,11 @@ public class Ventana extends JFrame {
 	PanelRegistro registro;
 	PanelJuego juego;
 	PanelGanador ganador;
+	/**
+	 * Metodo constructor
+	 *
+	 * <b>poscondiciones</b> da inicio a los componentes de la clase
+	 */
 	public Ventana() {
 		setSize(660, 470);
 		setLayout(null);
@@ -20,7 +25,7 @@ public class Ventana extends JFrame {
 	
 		
 	}
-
+	  
 	private void inicioiarComponentes() {
 		
 		inicio = new PanelInicio();

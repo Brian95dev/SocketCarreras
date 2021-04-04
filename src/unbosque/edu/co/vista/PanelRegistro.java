@@ -18,7 +18,12 @@ public class PanelRegistro extends JPanel{
 	private JTextField textoConductor;
 	private JTextField textoConeccion;
 	private JButton btnIngresar;
-
+	/**
+	 * Metodo constructor
+	 * <b>precondiciones:</b> Ser llamado desde Ventana
+	 * <br>
+	 * <b>poscondiciones</b> cargar las caracteristicas y tener el paint component de esta 
+	 */
 	public PanelRegistro () {
 		
 		setLayout(null);
@@ -28,7 +33,7 @@ public class PanelRegistro extends JPanel{
 		setVisible(false);
 		
 	}
-
+	
 	private void iniciarComponentes() {
 		
 		Font font = new Font("Arial Narrow", Font.TRUETYPE_FONT, 18);

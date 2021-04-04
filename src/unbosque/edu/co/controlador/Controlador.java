@@ -13,7 +13,7 @@ public class Controlador implements ActionListener {
 	 * Metodo constructor
 	 * <b>precondiciones:</b> Ser llamado desde AplMain
 	 * <br>
-	 * <b>poscondiciones</b> cargar la clase View y tener el action performed de esta 
+	 * <b>poscondiciones</b> cargar la clase Ventana y tener el action performed de esta 
 	 */
 	public Controlador() {
 		
@@ -28,7 +28,7 @@ public class Controlador implements ActionListener {
 	/**
 	 * Respuesta a los eventos en los elementos de la interfaz.
 	 * 
-	 * @param pEvento Evento generado. pEvento != null.
+	 * @param e Evento generado. e != null.
 	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
@@ -47,7 +47,11 @@ public class Controlador implements ActionListener {
 		}
 		
 	}
-	
+	/**
+	 * Cambia de panel
+	 * 
+	 * @param panel se pasa el panel como un componente. panel != null.
+	 */
 	public void cambiarPanel(Component panel) {
 		ventana.getContentPane().removeAll();
 		ventana.getContentPane().add(panel);
