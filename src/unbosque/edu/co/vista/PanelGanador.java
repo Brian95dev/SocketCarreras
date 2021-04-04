@@ -10,7 +10,7 @@ import javax.swing.JPanel;
  */
 public class PanelGanador extends JPanel{
 
-	private Image imagenx;
+	private Image imagen;
 	
 	
 	/**
@@ -29,7 +29,7 @@ public class PanelGanador extends JPanel{
 
 	private void iniciarComponentes() {
 		
-		imagenx = Toolkit.getDefaultToolkit().createImage("src/Imagenes/victoria.gif");
+		imagen = Toolkit.getDefaultToolkit().createImage("src/Imagenes/victoria.gif");
 
 	}
 	/**
@@ -41,9 +41,9 @@ public class PanelGanador extends JPanel{
 	  public void paintComponent(Graphics g) 
 	  {
 	    super.paintComponent(g);
-	    if (imagenx != null) 
+	    if (imagen != null) 
 	    {
-	      g.drawImage(imagenx, 0, 0,660,410, this);
+	      g.drawImage(imagen, 0, 0,660,410, this);
 	    }
 	  }
 }

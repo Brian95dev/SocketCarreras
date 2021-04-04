@@ -14,9 +14,9 @@ public class PanelJuego extends JPanel{
 
 	
 	private JLabel conductor;
-	private JLabel conductor1;
 	private JLabel conductor2;
 	private JLabel conductor3;
+	private JLabel conductor4;
 	private JProgressBar jb;
 	private JProgressBar jb2;
 	private JProgressBar jb3;
@@ -47,20 +47,20 @@ public class PanelJuego extends JPanel{
 		conductor.setBounds(30, 20, 180, 20);
 		add(conductor);
 		
-		 conductor1 = new JLabel(" Conductor");
-		conductor1.setBorder(BorderFactory.createLineBorder(Color.red));
-		conductor1.setBounds(30, 50, 180, 20);
-		add(conductor1);
-		
 		 conductor2 = new JLabel(" Conductor");
-			conductor2.setBorder(BorderFactory.createLineBorder(Color.black));
-			conductor2.setBounds(30, 80, 180, 20);
-			add(conductor2);
+		conductor2.setBorder(BorderFactory.createLineBorder(Color.red));
+		conductor2.setBounds(30, 50, 180, 20);
+		add(conductor2);
+		
+		 conductor3 = new JLabel(" Conductor");
+			conductor3.setBorder(BorderFactory.createLineBorder(Color.black));
+			conductor3.setBounds(30, 80, 180, 20);
+			add(conductor3);
 			
-			 conductor3 = new JLabel(" Conductor");
-				conductor3.setBorder(BorderFactory.createLineBorder(Color.yellow));
-				conductor3.setBounds(30, 110, 180, 20);
-				add(conductor3);
+			 conductor4 = new JLabel(" Conductor");
+				conductor4.setBorder(BorderFactory.createLineBorder(Color.yellow));
+				conductor4.setBounds(30, 110, 180, 20);
+				add(conductor4);
 		
 				   ImageIcon imagen1 = new ImageIcon ("src/Imagenes/1.jpg");
 			         ImageIcon imagen2 = new ImageIcon ("src/Imagenes/2.jpg");
@@ -110,21 +110,20 @@ public class PanelJuego extends JPanel{
 				 add(jb4);
 	
 				 
-				 label= new JLabel();
 	}
 	
-	/**
-	 * Metodo que se usa para mostrar la funcionalidad del progress bar
-	 * 
-	 */
-	public void iterate(){   
-		int i = 0;
-		while(i<=2000){    
-		  jb.setValue(i);    
-		  i=i+20;    
-		  try{Thread.sleep(150);}catch(Exception e){}    
-		}    
-		}
+//	/**
+//	 * Metodo que se usa para mostrar la funcionalidad del progress bar
+//	 * 
+//	 */
+//	public void iterate(){   
+//		int i = 0;
+//		while(i<=2000){    
+//		  jb.setValue(i);    
+//		  i=i+20;    
+//		  try{Thread.sleep(150);}catch(Exception e){}    
+//		}    
+//		}
 	
    
     
