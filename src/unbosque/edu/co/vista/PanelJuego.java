@@ -1,16 +1,15 @@
 package unbosque.edu.co.vista;
 
 import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
-import javax.swing.JComponent;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JProgressBar;
-
+/**
+ * panel de juego.
+ */
 public class PanelJuego extends JPanel{
 
 	

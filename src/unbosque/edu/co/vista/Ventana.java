@@ -1,23 +1,13 @@
 package unbosque.edu.co.vista;
 
-import java.awt.BorderLayout;
-import java.awt.Color;
-import java.awt.Graphics;
-import java.awt.Image;
-import java.net.URL;
-
-import javax.swing.Icon;
-import javax.swing.ImageIcon;
 import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JPanel;
 
 public class Ventana extends JFrame {
 
 	PanelInicio inicio;
 	PanelRegistro registro;
 	PanelJuego juego;
-
+	PanelGanador ganador;
 	public Ventana() {
 		setSize(660, 470);
 		setLayout(null);
@@ -42,7 +32,18 @@ public class Ventana extends JFrame {
 		juego = new PanelJuego();
 		getContentPane().add(juego);
 		
+		ganador = new PanelGanador();
+		getContentPane().add(ganador);
+		
 	
+	}
+
+	public PanelGanador getGanador() {
+		return ganador;
+	}
+
+	public void setGanador(PanelGanador ganador) {
+		this.ganador = ganador;
 	}
 
 	public PanelInicio getInicio() {
@@ -68,9 +69,5 @@ public class Ventana extends JFrame {
 	public void setJuego(PanelJuego juego) {
 		this.juego = juego;
 	}
-
-	
-		
-	
 
 }

@@ -1,11 +1,8 @@
 package unbosque.edu.co.vista;
 
-import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Font;
-import java.awt.GraphicsEnvironment;
 import java.awt.Image;
-import java.util.Arrays;
 
 import javax.swing.BorderFactory;
 import javax.swing.ImageIcon;
@@ -13,7 +10,9 @@ import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-
+/**
+ * panel de Registro.
+ */
 public class PanelRegistro extends JPanel{
 
 	private JTextField textoConductor;

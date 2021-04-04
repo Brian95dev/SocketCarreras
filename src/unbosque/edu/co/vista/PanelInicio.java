@@ -11,11 +11,13 @@ import javax.swing.ImageIcon;
 import javax.swing.JButton;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
-
+/**
+ * panel de Inicio.
+ */
 public class PanelInicio extends JPanel{
 
-	Image imagen;
-	JButton btnInicio;
+	private Image imagen;
+	private JButton btnInicio;
 	
 	
 	public PanelInicio () {

@@ -25,7 +25,11 @@ public class Controlador implements ActionListener {
 		ventana.getInicio().getBtnInicio().addActionListener(this);
 		ventana.getRegistro().getBtnIngresar().addActionListener(this);
 	}
-
+	/**
+	 * Respuesta a los eventos en los elementos de la interfaz.
+	 * 
+	 * @param pEvento Evento generado. pEvento != null.
+	 */
 	@Override
 	public void actionPerformed(ActionEvent e) {
 		
@@ -43,6 +47,7 @@ public class Controlador implements ActionListener {
 		}
 		
 	}
+	
 	public void cambiarPanel(Component panel) {
 		ventana.getContentPane().removeAll();
 		ventana.getContentPane().add(panel);
